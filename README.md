@@ -1,10 +1,130 @@
+<div align="center">
+
 # AI Dev Navigator
 
-一个面向初学者与进阶开发者的 AI 开发工具信息集成仓库。
+**一个面向初学者与进阶开发者的 AI 开发工具信息集成仓库**
 
-> 最新核验时间：`2026-02-07`
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--07-blue)](https://github.com)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
+
+## 核心厂商
+
+<table>
+<tr>
+<td align="center" width="180">
+<a href="https://platform.openai.com/">
+<img src="https://img.shields.io/badge/OpenAI-GPT--5.3--Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /><br/>
+<sub><code>2026-02-05</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://console.anthropic.com/">
+<img src="https://img.shields.io/badge/Anthropic-Claude%20Opus%204.6-FF6B35?style=flat-square&logo=anthropic&logoColor=white" alt="Anthropic" /><br/>
+<sub><code>2026-02-05</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://aistudio.google.com/">
+<img src="https://img.shields.io/badge/Google-Gemini%203%20Pro-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google" /><br/>
+<sub><code>2025-11-18</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://console.x.ai/">
+<img src="https://img.shields.io/badge/xAI-Grok%204.1%20Fast-000000?style=flat-square&logo=x&logoColor=white" alt="xAI" /><br/>
+<sub><code>2025-11-17</code></sub>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="180">
+<a href="https://platform.deepseek.com/">
+<img src="https://img.shields.io/badge/DeepSeek-V3.2-1C1C1E?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek" /><br/>
+<sub><code>2025-12-01</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://platform.moonshot.cn/">
+<img src="https://img.shields.io/badge/Moonshot-Kimi%20K2.5-FF6B6B?style=flat-square" alt="Moonshot" /><br/>
+<sub><code>2026-01-27</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://open.bigmodel.cn/">
+<img src="https://img.shields.io/badge/Zhipu-GLM--4.7-00A8FF?style=flat-square" alt="Zhipu" /><br/>
+<sub><code>2025-12-22</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://bailian.console.aliyun.com/">
+<img src="https://img.shields.io/badge/Qwen-Qwen3--Coder--Next-FF6A00?style=flat-square&logo=alibabacloud&logoColor=white" alt="Qwen" /><br/>
+<sub><code>2026-02-03</code></sub>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="180">
+<a href="https://console.bce.baidu.com/qianfan/">
+<img src="https://img.shields.io/badge/百度-ERNIE%205.0--0110-2932E1?style=flat-square&logo=baidu&logoColor=white" alt="百度" /><br/>
+<sub><code>2026-01-15</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://console.volcengine.com/ark">
+<img src="https://img.shields.io/badge/豆包-Doubao--Seed--Code-FF6B35?style=flat-square&logo=bytedance&logoColor=white" alt="豆包" /><br/>
+<sub><code>2025-12-03</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://console.cloud.tencent.com/hunyuan">
+<img src="https://img.shields.io/badge/腾讯混元-HY%202.0%20Think-00A8FF?style=flat-square&logo=tencent&logoColor=white" alt="腾讯" /><br/>
+<sub><code>2025-12-05</code></sub>
+</a>
+</td>
+<td align="center" width="180">
+<a href="https://platform.stepfun.com/">
+<img src="https://img.shields.io/badge/StepFun-Step--3.5--Flash-6366F1?style=flat-square" alt="StepFun" /><br/>
+<sub><code>2026-02-05</code></sub>
+</a>
+</td>
+</tr>
+</table>
+
+---
+
+### 快速导航
+
+<table>
+<tr>
+<td align="center" width="220">
+<a href="#2-cli-开发工具">
+<img src="https://img.shields.io/badge/CLI%20工具-16+-blue?style=for-the-badge" alt="CLI Tools" />
+</a>
+</td>
+<td align="center" width="220">
+<a href="#3-ide-开发插件">
+<img src="https://img.shields.io/badge/IDE%20插件-13+-green?style=for-the-badge" alt="IDE Plugins" />
+</a>
+</td>
+<td align="center" width="220">
+<a href="#4-原生-ai-ide">
+<img src="https://img.shields.io/badge/原生%20IDE-12+-orange?style=for-the-badge" alt="Native IDEs" />
+</a>
+</td>
+<td align="center" width="220">
+<a href="#5-cli-coding-plan">
+<img src="https://img.shields.io/badge/Coding%20Plan-6+-purple?style=for-the-badge" alt="Coding Plans" />
+</a>
+</td>
+</tr>
+</table>
+
+---
+
+</div>
 
 ## 1. 前沿模型厂商情报
 
