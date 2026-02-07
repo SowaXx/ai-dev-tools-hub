@@ -41,32 +41,32 @@
 
 ### 更新日志
 
-| 日期 | 厂商 | 更新内容 |
-|:---|:---|:---|
-| `2026-02-05` | OpenAI | GPT-5.3-Codex 发布 |
-| `2026-02-05` | Anthropic | Claude Opus 4.6 发布 |
-| `2026-02-03` | Qwen | Qwen3-Coder-Next 发布 |
-| `2026-02` | StepFun | Step-3.5-Flash 发布 |
-| `2026-01-27` | Moonshot | Kimi K2.5 发布 |
-| `2026-01-16` | LongCat | LongCat-Flash-Thinking-2601 发布 |
-| `2026-01-15` | 百度 | ERNIE-5.0-0110 发布 |
-| `2025-12-23` | MiniMax | MiniMax-M2.1 发布 |
-| `2025-12-22` | Zhipu | GLM-4.7 发布 |
-| `2025-12-17` | Google | Gemini 3 Flash 发布 |
-| `2025-12-14` | MiMo | MiMo-V2-Flash 发布 |
-| `2025-12-10` | OpenAI | GPT-5.2 Pro 发布 |
-| `2025-12-05` | 腾讯 | HY 2.0 Think/Instruct 发布 |
-| `2025-12-03` | 豆包 | Doubao-Seed-Code 发布 |
-| `2025-12-01` | DeepSeek | DeepSeek-V3.2 发布 |
-| `2025-11-18` | Google | Gemini 3 Pro 发布 |
-| `2025-11-17` | xAI | Grok 4.1 Fast 发布 |
-| `2025-10-15` | Anthropic | Claude Haiku 4.5 发布 |
-| `2025-10-01` | Anthropic | Claude Sonnet 4.5 发布 |
-| `2025-09-23` | Qwen | Qwen3 Max / Qwen3 Coder Plus 发布 |
-| `2025-09-09` | LongCat | LongCat-Flash-Chat 发布 |
-| `2025-07-31` | StepFun | Step3 发布 |
-| `2025-07-23` | Qwen | Qwen3 Coder 480B 发布 |
-| `2025-07-09` | xAI | Grok 4 发布 |
+| 日期 | 厂商 | 更新内容 | 官方链接 |
+|:---|:---|:---|:---|
+| `2026-02-05` | OpenAI | GPT-5.3-Codex 发布 | [openai.com](https://openai.com/index/introducing-gpt-5-3-codex) |
+| `2026-02-05` | Anthropic | Claude Opus 4.6 发布 | [anthropic.com](https://anthropic.com/news/claude-opus-4-6) |
+| `2026-02-03` | Qwen | Qwen3-Coder-Next 发布 | [qwenlm.github.io](https://qwenlm.github.io/blog/qwen3-coder/) / [GitHub](https://github.com/QwenLM/Qwen3-Coder) |
+| `2026-02-05` | StepFun | Step-3.5-Flash 发布 | [static.stepfun.com](https://static.stepfun.com/blog/step-3.5-flash) |
+| `2026-01-27` | Moonshot | Kimi K2.5 发布 | [kimi-k2.org](https://kimi-k2.org/en/blog/20-kimi-k2-5-en) |
+| `2026-01-16` | LongCat | LongCat-Flash-Thinking-2601 发布 | [GitHub](https://github.com/meituan-longcat/LongCat-Flash-Thinking-2601) |
+| `2026-01-15` | 百度 | ERNIE-5.0-0110 发布 | [ernie.baidu.com](https://ernie.baidu.com/blog/posts/ernie-5.0-0110-release-on-lmarena/) |
+| `2025-12-23` | MiniMax | MiniMax-M2.1 发布 | [minimax.io](https://www.minimax.io/news/minimax-m21) |
+| `2025-12-22` | Zhipu | GLM-4.7 发布 | [z.ai](https://z.ai/blog/glm-4.7) |
+| `2025-12-17` | Google | Gemini 3 Flash 发布 | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
+| `2025-12-14` | MiMo | MiMo-V2-Flash 发布 | [mimo.xiaomi.com](https://mimo.xiaomi.com/mimo-v2-flash) |
+| `2025-12-10` | OpenAI | GPT-5.2 Pro 发布 | [openai.com](https://openai.com/index/introducing-gpt-5-2/) |
+| `2025-12-05` | 腾讯 | HY 2.0 Think/Instruct 发布 | [hunyuan.tencent.com](https://hunyuan.tencent.com/) |
+| `2025-12-03` | 豆包 | Doubao-Seed-Code 发布 | [console.volcengine.com](https://console.volcengine.com/ark) |
+| `2025-12-01` | DeepSeek | DeepSeek-V3.2 发布 | [api-docs.deepseek.com](https://api-docs.deepseek.com/news/news251201) |
+| `2025-11-18` | Google | Gemini 3 Pro 发布 | [blog.google](https://blog.google/products/gemini/gemini-3) |
+| `2025-11-17` | xAI | Grok 4.1 Fast 发布 | [x.ai](https://x.ai/news/grok-4-1) |
+| `2025-10-15` | Anthropic | Claude Haiku 4.5 发布 | [anthropic.com](https://www.anthropic.com/news/claude-haiku-4-5) |
+| `2025-10-01` | Anthropic | Claude Sonnet 4.5 发布 | [anthropic.com](https://www.anthropic.com/news/claude-sonnet-4-5) |
+| `2025-09-23` | Qwen | Qwen3 Max / Qwen3 Coder Plus 发布 | [qwenlm.github.io](https://qwenlm.github.io/blog/qwen3-coder/) |
+| `2025-09-09` | LongCat | LongCat-Flash-Chat 发布 | [GitHub](https://github.com/meituan-longcat/LongCat-Flash-Chat) |
+| `2025-07-31` | StepFun | Step3 发布 | [GitHub](https://github.com/stepfun-ai/Step3) |
+| `2025-07-23` | Qwen | Qwen3 Coder 480B 发布 | [qwenlm.github.io](https://qwenlm.github.io/blog/qwen3-coder/) |
+| `2025-07-09` | xAI | Grok 4 发布 | [x.ai](https://x.ai/news/grok-4) |
 
 ---
 
