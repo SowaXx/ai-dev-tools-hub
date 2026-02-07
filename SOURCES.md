@@ -23,6 +23,11 @@
 - https://github.com/sickn33/antigravity-awesome-skills
 - https://github.com/steipete/agent-rules
 - https://github.com/GLips/Figma-Context-MCP
+- https://github.com/CherryHQ/cherry-studio
+- https://github.com/labring/FastGPT
+- https://github.com/infiniflow/ragflow
+- https://github.com/langgenius/dify
+- https://github.com/modelscope/modelscope
 
 ## Official docs / sites
 - https://code.claude.com/docs/en/overview
@@ -43,6 +48,13 @@
 - https://docs.openhands.dev/openhands/usage/cli/installation
 - https://modelcontextprotocol.io
 - https://docs.cursor.com/en/agent/cli
+- https://cherry-ai.com
+- https://docs.cherry-ai.com/docs/en-us
+- https://fastgpt.io
+- https://ragflow.io
+- https://dify.ai
+- https://docs.dify.ai/getting-started/install-self-hosted
+- https://www.modelscope.cn/
 
 ## Ambiguous naming references
 - https://cloud.tencent.com/developer/article/2556464

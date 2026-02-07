@@ -64,7 +64,23 @@
 
 ---
 
-## 5) 命名冲突与避坑（建议必读）
+## 5) 国内可用 / 国产生态（新增）
+
+> 这一组优先收录国内团队主导、国内可用且有公开仓库/文档的项目。
+
+| Tool | Official Repo | Docs / Site | Install (Quick) | 类型 | GitHub Stars* |
+|---|---|---|---|---|---:|
+| Qwen Code | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | [qwen docs](https://qwenlm.github.io/qwen-code-docs/en/users/overview) | `curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen.sh \| bash` / `npm i -g @qwen-code/qwen-code@latest` | CLI Agent | 18,180 |
+| Kimi Code CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | [kimi docs](https://moonshotai.github.io/kimi-cli/en/) | 按官方 Getting Started 安装（PyPI 包：`kimi-cli`） | CLI Agent | 6,140 |
+| Cherry Studio | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | [cherry-ai.com](https://cherry-ai.com) / [docs](https://docs.cherry-ai.com/docs/en-us) | 从 Releases 下载 Windows/macOS/Linux 安装包 | 桌面多模型客户端 | 39,408 |
+| FastGPT | [labring/FastGPT](https://github.com/labring/FastGPT) | [fastgpt.io](https://fastgpt.io) | 按官方文档自托管（Docker/Sealos） | RAG/工作流平台 | 27,092 |
+| RAGFlow | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | [ragflow.io](https://ragflow.io) | `docker compose -f docker-compose.yml up -d`（按官方部署文档） | RAG 平台 | 72,920 |
+| Dify | [langgenius/dify](https://github.com/langgenius/dify) | [dify.ai](https://dify.ai) / [self-host docs](https://docs.dify.ai/getting-started/install-self-hosted) | `cd docker && docker compose up -d` | LLM 应用平台 | 128,955 |
+| ModelScope SDK | [modelscope/modelscope](https://github.com/modelscope/modelscope) | [modelscope.cn](https://www.modelscope.cn/) | `pip install modelscope` | 模型生态 SDK | 8,698 |
+
+---
+
+## 6) 命名冲突与避坑（建议必读）
 
 1. `copilot-cli` vs `gh-copilot`
 - `github/copilot-cli`：独立 CLI 主程序。
@@ -79,7 +95,63 @@
 
 ---
 
-## 6) 初学者一周路线（快速拿结果）
+## 7) 按操作系统一键筛选安装命令（新增）
+
+> 用法：先看你的系统，再直接复制对应区块命令。  
+> 提示：以下主要覆盖 CLI 工具；桌面工具（如 Cherry Studio）建议从 Release 安装包安装。
+
+### macOS
+
+```bash
+# Node-based CLIs
+npm i -g @openai/codex @google/gemini-cli @qwen-code/qwen-code@latest @github/copilot opencode-ai
+
+# Python-based CLIs / SDKs
+python -m pip install --upgrade pip
+python -m pip install aider-install litellm modelscope kimi-cli
+
+# Install and run
+codex
+gemini
+qwen
+copilot
+```
+
+### Linux
+
+```bash
+# Official install scripts
+curl -fsSL https://claude.ai/install.sh | bash
+curl -fsSL https://opencode.ai/install | bash
+curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen.sh | bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+# npm path
+npm i -g @openai/codex @google/gemini-cli @github/copilot @continuedev/cli
+
+# Python path
+python -m pip install aider-install litellm modelscope kimi-cli
+```
+
+### Windows (PowerShell)
+
+```powershell
+# Script-based installers
+irm https://claude.ai/install.ps1 | iex
+curl -fsSL -o $env:TEMP\\install-qwen.bat https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen.bat
+& $env:TEMP\\install-qwen.bat
+
+# winget / npm
+winget install GitHub.Copilot
+npm i -g @openai/codex @google/gemini-cli @github/copilot
+
+# Python
+py -m pip install aider-install litellm modelscope kimi-cli
+```
+
+---
+
+## 8) 初学者一周路线（快速拿结果）
 
 1. Day 1: 从 `Claude Code / Codex / Gemini CLI / Qwen Code` 中选 1 个。
 2. Day 2: 跑通“需求 -> 改代码 -> 本地测试 -> 提交”。
@@ -91,7 +163,7 @@
 
 ---
 
-## 7) 这个仓库如何“更容易涨星”
+## 9) 这个仓库如何“更容易涨星”
 
 - 保持“检索价值”而非泛泛介绍：每项都给官方入口和安装方式。
 - 持续更新快照：至少每周一次（新增工具、失效链接、安装变更）。
