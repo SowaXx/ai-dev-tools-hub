@@ -77,6 +77,7 @@
 - https://platform.stepfun.com/docs/pricing/details
 - https://platform.stepfun.com/docs/intro/step3
 - https://qwenlm.github.io/blog/qwen3-next/
+- https://qwenlm.github.io/blog/qwen3-coder/
 - https://help.aliyun.com/zh/model-studio/billing-of-model-studio
 - https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlrk4akp7
 - https://cloud.tencent.com/document/product/1729/97731

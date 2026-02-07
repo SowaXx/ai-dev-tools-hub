@@ -219,21 +219,21 @@ py -m pip install aider-install litellm modelscope kimi-cli
 > - `API 成本`优先写每 1M token 的公开价；若官方页面为动态渲染且无法稳定抓取，给出官方定价入口并标注“以页面实时显示为准”。  
 > - `Benchmark`仅记录官方对外公布项，不做二次推导。
 
-| 厂商 | 最新模型（官方页面可见） | 发布时间 | 官方 Benchmark 摘要 | API 成本（公开口径） | 开发者 Console | 聊天/体验入口 |
+| 厂商 | 最新模型（2026-02-07 可核验） | 发布时间（官方） | 官方 Benchmark 摘要 | API 成本（2026-02-07 核验） | 开发者 Console | 聊天/体验入口 |
 |---|---|---|---|---|---|---|
-| OpenAI | GPT-5.2 / GPT-5.2 mini / GPT-5.2 nano | 见 [OpenAI API Pricing](https://openai.com/api/pricing/) & [Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes) | OpenAI 在发布说明与模型页持续更新，详细分项见官方页 | GPT-5.2: Input `$1.75`, Cached `$0.438`, Output `$14.00` / 1M tokens（见官方价目表） | [platform.openai.com](https://platform.openai.com/) | [chatgpt.com](https://chatgpt.com/) |
-| Anthropic | Claude Sonnet 4.5（另含 Opus/Sonnet/Haiku 4） | Sonnet 4.5: `2025-09-29`（官方新闻） | 官方强调 SWE-bench Verified 等编码指标改进 | Sonnet 4: Input `$3`, Output `$15` / 1M tokens；Haiku 4: `$1/$5` | [console.anthropic.com](https://console.anthropic.com/) | [claude.ai](https://claude.ai/) |
-| Google | Gemini 2.5 Pro / Flash / Flash-Lite | 见 [Gemini API Release Notes](https://ai.google.dev/gemini-api/docs/release-notes) | 官方长期披露 Arena/HLE 等指标更新 | 2.5 Pro（<=200k 输入）Input `$1.25`, Output `$10` / 1M tokens；Flash 更低价（见官方价目） | [aistudio.google.com](https://aistudio.google.com/) | [gemini.google.com](https://gemini.google.com/) |
-| xAI | Grok 4 系列（含 `grok-4-0709`） | 见 [xAI News](https://x.ai/news/grok-4) / 模型列表 | 官方新闻提供基准表现与定位说明 | `grok-4-0709`: Input `$3`, Output `$15` / 1M tokens（见 xAI docs） | [console.x.ai](https://console.x.ai/) | [grok.com](https://grok.com/) |
-| DeepSeek | DeepSeek-V3.2 / V3.2-Exp / R1-0528 | `2025-09-29`（V3.2-Exp）等见官方 News | 官方披露长上下文、代码与前端能力提升方向 | DeepSeek Chat（V3.2-Exp）Input Cache Hit `$0.028`, Miss `$0.28`, Output `$0.42` / 1M tokens | [platform.deepseek.com](https://platform.deepseek.com/) | [chat.deepseek.com](https://chat.deepseek.com/) |
-| Moonshot (Kimi) | Kimi-K2 系列（含 K2-0905、K2-Think） | `2025-09-05`、`2025-11-06`（官方博客） | 官方博客给出编码与推理能力更新 | 官方博客披露过 K2 Turbo API 调价（如 RMB 口径），以平台实时价目为准 | [platform.moonshot.cn](https://platform.moonshot.cn/) | [kimi.com](https://www.kimi.com/) |
-| Zhipu / GLM | GLM-4.7 系列（含 Air / X / Thinking） | `2026-01-12`（GLM-4.7 发布文） | 官方发布文披露多基准领先/对比结果 | GLM-4.7 Air（input）`$0.11`/1M tokens；其余档位见官方定价表 | [open.bigmodel.cn](https://open.bigmodel.cn/) / [docs.z.ai](https://docs.z.ai/) | [chat.z.ai](https://chat.z.ai/) |
-| MiniMax | MiniMax-M2 / M2.1 / M1 | M2.1: `2026-01-15`（官方新闻） | 官方给出 VibeCodingBench（88.6）与 Web/Android Agent 等指标 | 最新 API 价格见 [官方定价页](https://www.minimax.io/platform/document/price) | [platform.minimax.io](https://platform.minimax.io/) | [chat.minimax.io](https://chat.minimax.io/) |
-| StepFun | Step-3 / Step-3.5 系列 | 见官方文档更新时间（持续） | 官方文档有 MMLU/AIME/Agent 等指标描述 | Step-3（1M tokens）输入 `¥8`、输出 `¥35`（按官方人民币计费） | [platform.stepfun.com](https://platform.stepfun.com/) | [stepfun.com](https://stepfun.com/) |
-| Qwen / 阿里云百炼 | Qwen3-Next / Qwen3-Max 等 | `2025-09-23`（Qwen3-Next 发布） | 官方公告披露推理与多任务能力更新 | 百炼计费页有按模型分档价格（含输入/输出、缓存等） | [bailian.console.aliyun.com](https://bailian.console.aliyun.com/) | [chat.qwen.ai](https://chat.qwen.ai/) |
-| 文心（百度千帆） | ERNIE-5.0 / X1.1（模型列表可见） | 见千帆文档更新记录（如 `2026-01-08`） | 官方文档给出模型能力与场景说明 | 示例：ERNIE-5.0 输入 `¥0.004/千token`，输出 `¥0.016/千token`（见计费页） | [console.bce.baidu.com/qianfan](https://console.bce.baidu.com/qianfan/overview) | [yiyan.baidu.com](https://yiyan.baidu.com/) |
+| OpenAI | GPT-5 / GPT-5 mini / GPT-5 nano / GPT-5-codex | 见 [API Pricing](https://openai.com/api/pricing/) 与 [Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes) | 官方 Release Notes 与模型页持续更新 | GPT-5: Input `$1.25`, Cached `$0.125`, Output `$10` / 1M tokens（官方价目） | [platform.openai.com](https://platform.openai.com/) | [chatgpt.com](https://chatgpt.com/) |
+| Anthropic | Claude Sonnet 4.5（并列 Opus/Sonnet/Haiku 4） | Sonnet 4.5: `2025-09-29`（[官方新闻](https://www.anthropic.com/news/claude-sonnet-4-5)） | 官方新闻提到 SWE-bench Verified 等编码能力提升 | Sonnet 档位 `$3/$15`、Haiku 档位 `$1/$5`（input/output，单位 1M tokens） | [console.anthropic.com](https://console.anthropic.com/) | [claude.ai](https://claude.ai/) |
+| Google | Gemini 2.5 Pro / Flash / Flash-Lite | 见 [Release Notes](https://ai.google.dev/gemini-api/docs/release-notes) | 官方 release note 与模型文档更新 benchmark | Gemini 2.5 Pro（<=200k）：Input `$1.25`, Output `$10` / 1M tokens；其余见官方定价页 | [aistudio.google.com](https://aistudio.google.com/) | [gemini.google.com](https://gemini.google.com/) |
+| xAI | Grok 4 系列（如 `grok-4-0709`） | 见 [xAI News](https://x.ai/news/grok-4) | 官方新闻页给出能力定位与对比描述 | xAI 定价页/模型页动态变化较快，建议直接查 [docs.x.ai/models](https://docs.x.ai/docs/models) | [console.x.ai](https://console.x.ai/) | [grok.com](https://grok.com/) |
+| DeepSeek | DeepSeek-V3.2 / V3.2-Exp / R1-0528 | V3.2-Exp: `2025-09-29`（官方 News） | 官方公告强调编码与前端能力增强 | DeepSeek Chat（V3.2-Exp）：Cache Hit `$0.028`, Miss `$0.28`, Output `$0.42` / 1M tokens | [platform.deepseek.com](https://platform.deepseek.com/) | [chat.deepseek.com](https://chat.deepseek.com/) |
+| Moonshot (Kimi) | Kimi-K2-0905 / K2-Think | `2025-09-05`、`2025-11-06`（官方博客） | 官方博客披露编码与推理迭代 | 价格策略有阶段性调整，统一以 [Moonshot 平台定价页](https://platform.moonshot.cn/) 实时显示为准 | [platform.moonshot.cn](https://platform.moonshot.cn/) | [kimi.com](https://www.kimi.com/) |
+| Zhipu / GLM | GLM-4.7 系列 | `2026-01-12`（[GLM-4.7 发布文](https://z.ai/blog/glm-4.7)） | 官方发布文含多项 benchmark 对比 | 统一以 [docs.z.ai 定价页](https://docs.z.ai/guides/models/pricing) 为准（实时更新） | [open.bigmodel.cn](https://open.bigmodel.cn/) / [docs.z.ai](https://docs.z.ai/) | [chat.z.ai](https://chat.z.ai/) |
+| MiniMax | MiniMax-M2 / M2.1 / M1 | M2.1: `2026-01-15`（官方新闻） | 官方新闻含 VibeCodingBench 等指标 | 统一以 [MiniMax Pricing](https://www.minimax.io/platform/document/price) 实时显示为准 | [platform.minimax.io](https://platform.minimax.io/) | [chat.minimax.io](https://chat.minimax.io/) |
+| StepFun | Step-3 / Step-3.5 | 见官方文档更新记录 | 官方文档披露 MMLU/AIME 等基准 | 统一以 [StepFun Pricing](https://platform.stepfun.com/docs/pricing/details) 实时显示为准 | [platform.stepfun.com](https://platform.stepfun.com/) | [stepfun.com](https://stepfun.com/) |
+| Qwen / 阿里云百炼 | Qwen3-Coder / Qwen3-Max-Preview / Qwen3-Next | Qwen3-Coder: `2025-07-22`（官方博客） | 官方博客/百炼文档更新能力对比 | 统一以 [百炼计费文档](https://help.aliyun.com/zh/model-studio/billing-of-model-studio) 为准 | [bailian.console.aliyun.com](https://bailian.console.aliyun.com/) | [chat.qwen.ai](https://chat.qwen.ai/) |
+| 文心（百度千帆） | ERNIE-5.0 / X1.1（文档列出） | 文档更新记录：`2026-01-08` | 官方文档给出模型能力与场景说明 | ERNIE-5.0：输入 `¥0.004/千token`，输出 `¥0.016/千token`（官方计费文档） | [console.bce.baidu.com/qianfan](https://console.bce.baidu.com/qianfan/overview) | [yiyan.baidu.com](https://yiyan.baidu.com/) |
 | 豆包 / 火山方舟 | 豆包系列（Pro/Thinking/视觉等） | 见方舟文档与产品页 | 官方文档持续更新能力说明 | 定价页为动态渲染，建议直接查 [方舟定价文档](https://www.volcengine.com/docs/82379/1099320) | [console.volcengine.com/ark](https://console.volcengine.com/ark) | [doubao.com](https://www.doubao.com/) |
-| 腾讯混元 | hunyuan 系列（T1/TurboS 等） | 计费页更新至 `2026-02-05` | 官方文档持续补充场景与模型能力 | 示例：`hunyuan-t1-latest` 输入 `¥4/百万token`，输出 `¥16/百万token` | [console.cloud.tencent.com/hunyuan](https://console.cloud.tencent.com/hunyuan) | [yuanbao.tencent.com](https://yuanbao.tencent.com/) |
+| 腾讯混元 | hunyuan 系列（T1/TurboS 等） | 计费页更新至 `2026-02-05` | 官方文档持续补充场景与模型能力 | `hunyuan-t1-latest`：输入 `¥4/百万token`，输出 `¥16/百万token`（官方计费页） | [console.cloud.tencent.com/hunyuan](https://console.cloud.tencent.com/hunyuan) | [yuanbao.tencent.com](https://yuanbao.tencent.com/) |
 | LongCat（美团） | LongCat-Flash-Chat | 技术报告 `2025`（arXiv:2509.01322） | 官方 README 公布了 MMLU、AIME、SWE-bench、TerminalBench、τ²-Bench 等大量分数 | 公开仓库未提供统一 API 商业计费页 | [longcat.ai](https://longcat.ai/)（含官方入口） | [longcat.ai](https://longcat.ai/) |
 | MiMo（小米） | MiMo-7B-RL-0530 | 更新 `2025-05-30` | 官方 README 公布 AIME24 `80.1`、LCB v5 `60.9`、GPQA `60.6` 等 | 开源模型仓库口径，未给官方统一 API 商业价 | [huggingface.co/XiaomiMiMo](https://huggingface.co/XiaomiMiMo) / [modelscope](https://www.modelscope.cn/organization/XiaomiMiMo) | 开源模型为主（无独立官方聊天站） |
 
@@ -243,10 +243,10 @@ py -m pip install aider-install litellm modelscope kimi-cli
 
 | 方案 | 官方入口 | 价格/计费 | 备注 |
 |---|---|---|---|
-| Claude Code（Anthropic 官方） | [code.claude.com/pricing](https://www.anthropic.com/pricing#api) / [docs](https://docs.anthropic.com/en/docs/claude-code/costs) | Claude Code 本体按 Anthropic 订阅与 API 用量组合；API 单价见官方 pricing | 官方文档有成本控制与限额说明 |
-| OpenAI Codex（CLI/Cloud） | [developers.openai.com/codex/pricing](https://developers.openai.com/codex/pricing/) | Plus `$20/月`，Pro `$200/月`，Business `$30/用户/月`，另可 API key 按 token 计费 | 适合“订阅 + API 混合”用法 |
-| GLM Coding Plan | [z.ai/coding-plan](https://www.z.ai/coding-plan) | 官方页面显示从 `20 元/月` 起（并有更高档） | 提供面向编码场景的订阅层 |
-| MiniMax Claude Code 方案 | [minimax 文档](https://www.minimax.io/platform/document/claude-code) | 官方文档显示 `$10 / $20 / $50` 分层 | 覆盖 Claude Code 兼容接入说明 |
+| Claude Code（Anthropic 官方） | [Anthropic Pricing](https://www.anthropic.com/pricing#api) / [Claude Code costs](https://docs.anthropic.com/en/docs/claude-code/costs) | 官方以 API 计费 + 账号套餐限制为主，按模型 token 消耗计费 | 官方文档提供成本控制与限额策略 |
+| OpenAI Codex（CLI/Cloud） | [Codex Pricing](https://developers.openai.com/codex/pricing/) | Plus `$20/月`，Pro `$200/月`，Business `$30/用户/月`，或 API key token 计费 | 2026-02-07 再核验 |
+| GLM Coding Plan | [z.ai/coding-plan](https://www.z.ai/coding-plan) | 存在按月套餐，具体价格以官方页面实时展示为准 | 提供面向编码场景的订阅层 |
+| MiniMax Claude Code 方案 | [MiniMax 文档](https://www.minimax.io/platform/document/claude-code) | 套餐/额度会调整，以官方文档实时显示为准 | 覆盖 Claude Code 兼容接入说明 |
 | 火山引擎 ModelArk Coding 方案 | [modelark 产品页](https://www.volcengine.com/product/modelark) | 官方活动/套餐信息有阶段性变动，以产品页实时显示为准 | 建议绑定方舟控制台核验最新权益 |
 | Kimi / Moonshot（CLI + API） | [kimi-cli docs](https://moonshotai.github.io/kimi-cli/en/) + [moonshot platform](https://platform.moonshot.cn/) | 当前以 API 计费为主；活动价/促销价见官方博客与控制台 | 暂未看到独立“Coding Plan”固定命名页 |
 
@@ -258,7 +258,7 @@ py -m pip install aider-install litellm modelscope kimi-cli
 
 | CLI | 官方入口 | 价格口径（2026-02-07 核验） |
 |---|---|---|
-| Claude Code | [Anthropic](https://www.anthropic.com/pricing#api) / [Docs](https://docs.anthropic.com/en/docs/claude-code/costs) | 订阅 + API 混合；API 参考 Sonnet/Haiku 档位 |
+| Claude Code | [Anthropic](https://www.anthropic.com/pricing#api) / [Docs](https://docs.anthropic.com/en/docs/claude-code/costs) | 以模型 API token 计费为主（并受套餐限额影响） |
 | Codex CLI | [OpenAI Codex Pricing](https://developers.openai.com/codex/pricing/) | Plus `$20/月`，Pro `$200/月`，Business `$30/seat/月`，或 API token 计费 |
 | Gemini CLI | [Gemini CLI docs](https://geminicli.com/docs/) + [Gemini API Pricing](https://ai.google.dev/gemini-api/docs/pricing) | CLI 本身开源，实际成本取决于 Gemini API 用量 |
 | Qwen Code | [Qwen Code docs](https://qwenlm.github.io/qwen-code-docs/en/users/overview) + [百炼计费](https://help.aliyun.com/zh/model-studio/billing-of-model-studio) | CLI 开源，按百炼/所接模型计费 |
